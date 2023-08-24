@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        white 20%,
+        #449bd2
+    );
+}
+
+img {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    margin-left: 3px;
+    top: 18px;
+}
+
+.link { 
+    color: #235284;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: bottom;
+   }
+
+.link {
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    margin-top: 10px;
+   }
+
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: #235284;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: rgb(0, 48, 138);
+}
+.link:hover:after{
+     width: 100%;
+}
+
+.opcoes {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 330px;
+    right: 320px;
+    text-align: center;
+}
+
+.opcoescar {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 330px;
+    right: 385px;
+    text-align: center;
+}
+
+.opcoessao {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 330px;
+    right: 215px;
+    text-align: center;
+}
+
+
+.profivotu {
+    position: absolute;
+    top: 340px;
+    left: 200px;;
+}
+
+.profivotu2 {
+    position: absolute;
+    top: 340px;
+    left: 710px;;
+}
+
+.profivotu3 {
+    position: absolute;
+    top: 880px;
+    left: 200px;;
+}
+
+.profivotu4 {
+    position: absolute;
+    top: 880px;
+    left: 710px;;
+}

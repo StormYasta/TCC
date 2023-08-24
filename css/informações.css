@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #73bdeb;
+}
+
+img {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    margin-left: 3px;
+    top: 18px;
+}
+
+.link { 
+    color: #235284;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: bottom;
+   }
+
+.link {
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    margin-top: 10px;
+   }
+
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: #235284;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: rgb(0, 48, 138);
+}
+.link:hover:after{
+     width: 100%;
+}
+.wave{
+    position: absolute;
+    top: -170px;
+    left: -105px;
+}
+
+
+.nuvem {
+    position: absolute;
+    top: 320px;
+    left: 110px;
+}
+
+.boneco3 {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+
+.entender {
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 325px;
+    right: 460px;
+    text-align: center;
+}
+
+
+.diferença {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 990px;
+    right: 460px;
+    text-align: center;
+}
+
+.diferença2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 1100px;
+    left: 345px;
+    text-align: center;
+}
+
+.mundo {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 1535px;
+    left: 645px;
+    text-align: center;
+}
+
+.mundo2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 1645px;
+    left: 490px;
+    text-align: center;
+}
+
+.retangulo {
+    position: absolute;
+    top: 1400px;
+    left: 330px;
+}
+
+.existe {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 2250px;
+    left: 610px;
+    text-align: center;
+}
+
+.existe2 {
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 2505px;
+    left: 490px;
+    text-align: center;
+}
+
+.wave2 {
+    position: absolute;
+    top: 2220px;
+    left: 345px;
+    width: 50px;
+}
+
+.estamos {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 3130px;
+    left: 410px;
+    text-align: center;
+}
+
+.estamos2 {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 3345px;
+    left: 575px;
+    text-align: center;
+}
+
+.retangulo2 {
+    position: absolute;
+    top: 3170px;
+    left: 410px;
+}
+
+.cura {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 3890px;
+    left: 490px;
+    text-align: center;
+}
+
+.cura2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 4060px;
+    left: 625px;
+    text-align: center;
+}
+
+.retangulo3 {
+    position: absolute;
+    top: 3730px;
+    left: 155px;
+}
+
+.enfermidades {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 4630px;
+    left: 315px;
+    text-align: center;
+}
+
+.enfermidades2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 4750px;
+    left: 470px;
+    text-align: center;
+}
+
+.tratado {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 5180px;
+    left: 325px;
+    text-align: center;
+}
+
+.tratado2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+    font-weight: bold;
+    position: absolute;
+    top: 5490px;
+    left: 750px;
+    text-align: center;
+}
+
+.retangulo33 {
+    position: absolute;
+    top: 5360px;
+    left: 380px;
+}
+
+.nuvem2 {
+    position: absolute;
+    top: 5905px;
+    left: 470px;
+}
+
+.bonecofinal {
+    position: absolute;
+    top: 5765px;
+    left: 480px;
+}
+
+
+
+
+

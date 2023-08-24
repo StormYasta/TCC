@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        white 40%,
+        #449bd2
+    );
+}
+
+img {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    margin-left: 3px;
+    top: 18px;
+}
+.link { 
+    color: #235284;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: bottom;
+   }
+
+.link {
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    margin-top: 10px;
+   }
+
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: #235284;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: rgb(0, 48, 138);
+}
+.link:hover:after{
+     width: 100%;
+}
+
+.metodos{
+
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    right: 870px;
+    top: 250px;
+    color: #235284;
+}
+.respiração{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 350px;
+    top: 870px;
+   text-align: center;
+    color:  #235284;
+}
+.gif { 
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    border-radius: 100%;
+    text-align: right; 
+    padding: 70px;
+    position: relative;
+    right: 710px;
+    top: 40px;
+}
+button {
+    width: 500px;
+    height: 60px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 659px;
+    top: 150px;
+  }
+  
+  button:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }

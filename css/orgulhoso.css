@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        #5a67d8 40%,
+        #449bd2
+    );
+}
+
+    
+.nuvem6{
+    position: absolute;
+    top: 350px;
+    left:730px;
+}
+
+.gif{
+  
+        transform: translateY(0px);
+        animation: float 10s ease-in-out infinite;
+        position: absolute;
+        left:780px;
+        top: 210px;
+    }
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-30px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+    
+
+.estrela{
+    position: absolute;
+    top: 200px;
+    left:750px;
+    transform: translateY(0px);
+        animation: float 10s ease-in-out infinite;
+        top: 210px;
+    }
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-30px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+.escrita{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 715px;
+    top: 650px;
+    color: #e6e6e6;
+}
+
+.escrita2{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 445px;
+    top: 750px;
+   text-align: center;
+    color: #e6e6e6;
+
+}
+@keyframes go-back1 {
+    0% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes go-back2 {
+    0% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes go-back3 {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes go-back4 {
+    0% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+body {
+    margin: 0;
+  }
+  
+  svg {
+    width: 100%;
+  }
+
+button{
+    width: 62px;
+    height: 60px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 30px;
+    top: -400px;
+  }
+  
+  button:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+   
+

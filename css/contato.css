@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        white 45%,
+        #449bd2
+    );
+}
+
+img {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    margin-left: 3px;
+    top: 18px;
+}
+
+.link { 
+    color: #235284;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: bottom;
+   }
+
+.link {
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    margin-top: 10px;
+   }
+
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: #235284;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: rgb(0, 48, 138);
+}
+.link:hover:after{
+     width: 100%;
+}
+
+
+.formulario {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 325px;
+    left: 1030px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color:#255283;
+    border-radius: 5px;
+    border-color: #255283;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    left: 400px;
+}
+
+
+.conta {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 345px;
+    left: 235px;
+    text-align: center;
+}
+
+.insta {
+    position: absolute;
+    top: 410px;
+    left: 186px;
+}
+
+.face {
+    position: absolute;
+    top: 510px;
+    left: 190px;
+}
+
+
+ 

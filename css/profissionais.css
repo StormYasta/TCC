@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        white 10%,
+        #449bd2
+    );
+    overflow-x: hidden;
+}
+
+img {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    margin-left: 3px;
+    top: 18px;
+}
+
+.link { 
+  color: #235284;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: bottom;
+ }
+
+.link {
+  text-decoration: none;
+  position: relative;
+  left: 500px;
+  margin-top: 10px;
+ }
+
+.link:after{
+  content: "";
+  position: absolute;
+  background-color: #235284;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color: rgb(0, 48, 138);
+}
+.link:hover:after{
+   width: 100%;
+}
+
+.boneco3 {
+    position: absolute;
+    top: 240px;
+    left: 208px;
+}
+
+.nuvem {
+    position: absolute;
+    top: 440px;
+    left: 208px;
+}
+
+.cidade {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #255283; 
+    font-weight: bold;
+    position: absolute;
+    top: 390px;
+    left: 1125px;
+    text-align: center;
+}
+
+.cidade2 {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white; 
+  font-weight: bold;
+  position: absolute;
+  top: 720px;
+  left: 190px;
+  text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 430px;
+    left: 1225px;
+  }
+
+button:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+
+.button2 {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 510px;
+    left: 923px;
+  }
+
+.button2:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+
+.button3 {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 590px;
+    left: 620px;
+  }
+
+.button3:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+
+.button4 {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 669px;
+    left: 315px;
+  }
+
+.button4:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+
+.button5 {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 750px;
+    left: 13px;
+  }
+
+.button5:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+
+.button6 {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 830px;
+    left: -291px;
+  }
+
+.button6:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+
+.button7 {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #235284;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 860px;
+    left: 1229px;
+  }
+
+.button7:hover {
+    background: #235284;
+    color: white;
+    font-size: 2.0 em;
+  }
+

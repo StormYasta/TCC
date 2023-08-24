@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 62,5%;
+}
+
+body {
+    background-image: linear-gradient(
+        white 25%,
+        #449bd2
+    );
+}
+
+img {
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+    margin-left: 3px;
+    top: 18px;
+}
+
+.link { 
+    color: #235284;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: bottom;
+   }
+
+.link {
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    margin-top: 10px;
+   }
+
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: #235284;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    color: rgb(0, 48, 138);
+}
+.link:hover:after{
+     width: 100%;
+}
+
+  
+.sentindo{
+
+font-size: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: absolute;
+left: 600px;
+top: 225px;
+color: #235284;
+
+
+
+  }
+
+ h2{
+
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: -256px;
+    top: 200px;
+    color: #235284;
+
+
+ }
+ h3{
+
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 310px;
+    top: 200px;
+    color: #235284;
+
+ }
+ 
+
+
+.desmotivado {
+    position: absolute;
+    top: 307px;
+    left: 162px;
+}
+
+.desmotivado2{    
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: absolute;
+   left: 1628px;
+   top: 515px;
+   color: #235284;
+   
+   
+ }
+
+ 
+.triste {
+    position: absolute;
+    top: 311px;
+    left: 650px;
+}
+
+
+
+.triste2{    
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: absolute;
+   left: 674px;
+   top: 515px;
+   color: #235284;
+   
+ }
+
+ .estressado {
+    position: absolute;
+    top: 307px;
+    right: 350px;
+}
+.estressado2{    
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 1138px;
+    top: 515px;
+    color: #235284;
+    
+  }
+
+
+.ansioso {
+    position: absolute;
+    top: 762px;
+    left: 162px;
+
+}
+.ansi2{    
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 1654px;
+    top: 968px;
+    color: #235284;
+
+ }
+
+
+ .sobrecarregado {
+    position: absolute;
+    top: 750px;
+    left: 650px;
+
+}
+.sobrecarregado2{    
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 625px;
+    top: 968px;
+    color: #235284;
+
+}
+
+.preocupado {
+    position: absolute;
+    top: 762px;
+    right: 350px;
+
+}
+.preocupado2{    
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 1140px;
+    top: 965px;
+    color: #235284;
+    
+   
+ }
+ 
+ .perguntadesmotivado {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 450px;
+    top: 330px;
+    color: #235284;
+    text-align: center 
+ }
+ .mensagem {   
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 450px;
+  right: 1000px;
+   
+}
+
+
+.perguntadesmotivado2 {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 390px;
+    top: 660px;
+    color: #235284;
+ }
+ .mensagem2 {   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; 
+    right: 620px;
+    top: 750px;
+    font-size: 12px; 
+  }
+
+
+
+.perguntadesmotivado3 {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 670px;
+    top: 910px;
+    color: #235284;
+ }
+.mensagem3 {   
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: absolute;
+    right: 610px;
+    top: 1020px;
+    font-size: 12px; 
+ }
+
+
+ .perguntapreocupado{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 415px;
+    top: 330px;
+    color: #235284;
+    text-align: center 
+ }
+ 
+ .perguntaansioso{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 425px;
+    top: 330px;
+    color: #235284;
+    text-align: center 
+ }
+ .perguntasobrecarregado{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 400px;
+    top: 330px;
+    color: #235284;
+    text-align: center 
+ }
+  
+ .perguntatriste{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 460px;
+    top: 330px;
+    color: #235284;
+    text-align: center 
+ }
+ .sentado{
+    position: absolute;
+    top: 850px;
+    left: 1050px;
+}
+.sentado{
+    position: absolute;
+    top: 850px;
+    left: 1020px;
+
+}
+    button {
+        width: 500px;
+        height: 60px;
+        border: 3px solid #235284;
+        border-radius: 45px;
+        transition: all 0.3s;
+        cursor: pointer;
+        background: white;
+        font-size: 1.2em;
+        font-weight: 550;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        left: 670px;
+        top: -100px;
+      }
+      
+      button:hover {
+        background: #235284;
+        color: white;
+        font-size: 2.0 em;
+      }
+         
+
+.ondas{
+    position: absolute;
+    top: -150px;
+    left: -150px;
+}
