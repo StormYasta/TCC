@@ -13,47 +13,15 @@ body {
     );
 }
 
-img {
+/* img {
     position: relative;
     left: 100px;
     margin-top: 30px;
     margin-left: 3px;
     top: 18px;
-}
+} */
 
-.link { 
-    color: #235284;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: bottom;
-   }
-
-.link {
-    text-decoration: none;
-    position: relative;
-    left: 500px;
-    margin-top: 10px;
-   }
-
-.link:after{
-    content: "";
-    position: absolute;
-    background-color: #235284;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-
-.link:hover{
-    color: rgb(0, 48, 138);
-}
-.link:hover:after{
-     width: 100%;
-}
-
-  
-.sentindo{
+/* .sentindo{
 
 font-size: 25px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -190,7 +158,7 @@ color: #235284;
     color: #235284;
     
    
- }
+ } */
  
  .perguntadesmotivado {
     font-size: 18px;

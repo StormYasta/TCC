@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2.2rem;
+    color: #235284;
+    text-align: center;
+    margin: 4rem;
+}
+
+.emocoes{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+    justify-content: space-around;
+}
+
+.circle a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #235284;
+    transition: all .3s;
+}
+
+.circle a:hover{
+    color: white;
+}
+
+
+.circle img{
+    width: 25rem;
+}
