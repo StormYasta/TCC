@@ -1,94 +1,59 @@
 <html>
     <head>
+      
         <title> Safe Place </title>   
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width">
 
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/triste.css">
 
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <img width="120"  src="img/logo.png"/></div>
     </head>
 
-    <body>    
-        
-        <table>
-          <a href="index.html" class="link">INÍCIO</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="emoções.html" class="link">EMOÇÕES</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="metodos.html" class="link">MÉTODOS</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="profissionais.html" class="link">PROFISSIONAIS</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="informações.html" class="link">INFORMAÇÕES</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="contato.html" class="link">CONTATO</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        </table>
-       
-       
-           
-           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-           <div class="perguntasobrecarregado">                                                   
-        <h1> Qual pode ser a razão de você estar se sentindo sobrecarregado(a)? </h1> </div>
-         <div class="perguntadesmotivado2">                                                   
-            <h1> Cite 3 coisas que você realizou hoje, sendo elas grandes ou pequenas.  </h1> </div>
-                <div class="perguntadesmotivado3">                                               
-                    <h1> Algo está pesando em você?  </h1> </div>
-                    
-             <div class="mensagem">   
-                <style> 
-                    input[type=text] {
-                      width: 200%;
-                      padding: 40px 35px;
-                      margin: 8px;
-                      box-sizing: border-box;
-                      border: 3px solid #ccc;
-                      -webkit-transition: 0.5s;
-                      transition: 0.5s;
-                      outline: none;
-                      left: 300px;
-                      top: 970px;
-                      font-size: 20px;
-                    }
-                    
-                    input[type=text]:focus {
-                      border: 5px solid #235284;
-                    }
-                    </style>
-           
-    
-           <form>
-            <label for="fname"></label>
-            <input type="text" id="fname" name="fname" value="">
-    
-            <br><br><br> <br><br><br><br><br><br><br>
-            <label for="lname"> </label>
-            <input type="text" id="lname" name="lname" value="">
-            <br><br><br> <br><br><br><br>
-            <label for="lname"> </label>
-            <input type="text" id="lname" name="lname" value="">
-          </form>
-          </form>
-          <br><br><br> <br><br><br><br>  <br><br><br> 
+        <body>
+          <div class="background">
+          <header>
+          <img width="120"  src="../img/logo.png"/>
+          
+          <div class="links">
+              <a href="../index.html" class="link">INÍCIO</a>
+              <a href="./emoções.html" class="link">EMOÇÕES</a>
+              <a href="./metodos.html" class="link">MÉTODOS</a>
+              <a href="./profissionais.html" class="link">PROFISSIONAIS</a>
+              <a href="./informações.html" class="link">INFORMAÇÕES</a>
+              <a href="./contato.html" class="link">CONTATO</a>
+          </div>
+          </header>
+          <form>
+            <div class="questions">
+            <div class="question perguntatriste">                                                   
+              <h1> Qual pode ser a razão de você estar se sentindo sobrecarregado(a)?</h1>
+              <label for="fname"></label>
+              <input class="text" type="text" id="fname" name="fname" value="">
             </div>
 
+            <div class="question perguntadesmotivado2">                                                   
+              <h1> Cite 3 coisas que você realizou hoje, sendo elas grandes ou pequenas.</h1>
+              <label for="lname"> </label>
+              <input class="text" type="text" id="lname" name="lname" value="">
+            </div>
 
+            <div class="question perguntadesmotivado3">                                               
+              <h1> Algo está pesando em você?</h1>
+              <label for="lname"> </label>
+              <input class="text" type="text" id="lname" name="lname" value="">
+            </div>
 
-
-
-    
-         </div>
-                            
-
-                        <section>
-                            <figure class="sentado">
-                            <img width="180" src="img/sentado.png">
-                            </figure>
-                            </section> 
-
-                               
-                    </div>
-
-                    <a href="orgulhoso.html"><button> Pronto! </button></a>
-                    
-                    
-
-                  
+            <div class="button">
+              <img src="../img/sentado.png" alt="">
+              <a href="orgulhoso.html"> Pronto!</a>
+            </div>
+            
+          </div>
+          </form>
+          </div>
 </body>
 </html>

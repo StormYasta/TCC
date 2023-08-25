@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    max-width: 100%;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 1.6rem;
+
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    color: #235284;
+}
+
+.question h1{
+    margin: .8rem;
+}
+
+.text{
+    width: 60vw;
+    height: 3rem;
+    font-size: 2.7rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: 3px solid #235284;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    
+}
+
+.button img{
+    width: 18rem;
+}
+
+
+
+@media (max-width: 720px){
+    .question {
+        font-size: .8rem;
+    }
+
+    .button a{
+        width: 14rem;
+    }
+}

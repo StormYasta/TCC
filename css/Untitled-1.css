@@ -134,11 +134,9 @@ a:link {
     left: 1133px;
     top: 968px;
     color: #235284;
-    
-   
  }
  
- .perguntadesmotivado {
+ /* .perguntadesmotivado {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
@@ -188,7 +186,7 @@ a:link {
     right: 610px;
     top: 1020px;
     font-size: 12px; 
- }
+ } */
 
 
  .perguntapreocupado{
