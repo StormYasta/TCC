@@ -1,93 +1,78 @@
 <html>
-    <head>
-        <title> Safe Place </title>  
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 
-    <link rel="stylesheet" type="text/css" href="./css/contato.css">
-    
-    </head>
-    
-    <style>
-        input[type=text], select {
-          width: 97%;
-          padding: 15px 5px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          border-color: #255283;
-          box-sizing: border-box;
-        }
-        
-        input[type=submit] {
-          width: 50%;
-          background-color:#255283;
-          color: white;
-          padding: 10px 15px;
-          margin: 8px 0;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-        }
-        
-       div {
-          border-radius: 5px;
-          padding: 20px;
-          position: absolute;
-          top: 450px;
-          left: 790px;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-          font-size: 19px;
-          color:#255283;
-          
-        }
-        </style>
-   
-    <body>
-      <img width="120"  src="img/logo.png"/>
-    
-        <table>
-          <a href="index.html" class="link">INÍCIO</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="emoções.html" class="link">EMOÇÕES</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="metodos.html" class="link">MÉTODOS</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="profissionais.html" class="link">PROFISSIONAIS</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="informações.html" class="link">INFORMAÇÕES</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <a href="contato.html" class="link">CONTATO</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        </table>
-    
+<head>
+
+  <title> Safe Place </title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/inicio.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/contato.css">
+
+
+</head>
+
+<body>
+  <div class="background">
+    <header>
+      <img width="120" src="../img/logo.png" />
+
+      <div class="links">
+        <a href="../index.html" class="link">INÍCIO</a>
+        <a href="./emoções.html" class="link">EMOÇÕES</a>
+        <a href="./metodos.html" class="link">MÉTODOS</a>
+        <a href="./profissionais.html" class="link">PROFISSIONAIS</a>
+        <a href="./informações.html" class="link">INFORMAÇÕES</a>
+        <a href="./contato.html" class="link">CONTATO</a>
+      </div>
+    </header>
+    <div class="container">
+
       <div class="formulario">
         <h2>Formulário de contato </h2>
-      </div>
-      
-          <div>
-            <form>
+
+
+        <div>
+          <form>
+            <div class="question">
               <label for="fname">Seu nome e sobrenome:</label>
-              <input type="text" id="fname" name="firstname" placeholder="Seu nome e sobrenome..">
-          
+              <input class="text" type="text" id="fname" name="firstname" placeholder="Seu nome e sobrenome..">
+
+            </div>
+            <div class="question">
               <label for="lname">Seu e-mail:</label>
-              <input type="text" id="lname" name="lastname" placeholder="Seu e-mail..">
-
+              <input class="text" type="text" id="lname" name="lastname" placeholder="Seu e-mail..">
+            </div>
+            <div class="question">
               <label for="lname">Envie sua mensagem:</label>
-              <input type="text" id="lname" name="lastname" placeholder="Envie sua mensagem..">
-            <button> Enviar </button>
-            </form>
-          </div> 
+              <input class="text" type="text" id="lname" name="lastname" placeholder="Envie sua mensagem..">
+            </div>
 
-          
-
-          <div class="conta">
-            <h2>Siga-nos</h2>
-          </div>
-
-         <div class="insta">
-          <a href="https://www.instagram.com/safeplace.sp/" target="_blank" rel="noopener noreferrer"><img  width="70" src="img/insta2.png"/></a>
+            <button class="button"> Enviar </button>
+          </form>
         </div>
+      </div>
 
-        <div class="face">
-          <a href="https://www.facebook.com/profile.php?id=100090798468873&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><img  width="63" src="img/face2.png" /></a>
+
+
+      <div class="conta">
+        <h2>Siga-nos</h2>
+
+      <div class="social">
+        <a href="https://www.instagram.com/safeplace.sp/" target="_blank" rel="noopener noreferrer"><img width="70"
+            src="../img/insta2.png" /></a>
         </div>
-
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100090798468873&mibextid=ZbWKwL" target="_blank"
+          rel="noopener noreferrer"><img width="63" src="../img/face2.png" /></a>
+      </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

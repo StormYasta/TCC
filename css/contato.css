@@ -1,104 +1,93 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: linear-gradient(
-        white 45%,
-        #449bd2
-    );
-}
-
-img {
-    position: relative;
-    left: 100px;
-    margin-top: 30px;
-    margin-left: 3px;
-    top: 18px;
-}
-
-.link { 
-    color: #235284;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: bottom;
-   }
-
-.link {
-    text-decoration: none;
-    position: relative;
-    left: 500px;
-    margin-top: 10px;
-   }
-
-.link:after{
-    content: "";
-    position: absolute;
-    background-color: #235284;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-
-.link:hover{
-    color: rgb(0, 48, 138);
-}
-.link:hover:after{
-     width: 100%;
-}
-
-
 .formulario {
-    font-size: 30px;
+    font-size: 2.6rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #255283; 
     font-weight: bold;
-    position: absolute;
-    top: 325px;
-    left: 1030px;
     text-align: center;
 }
-
-button {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-color:#255283;
-    border-radius: 5px;
-    border-color: #255283;
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 50px;
-    left: 400px;
-}
-
 
 .conta {
     font-size: 28px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #255283; 
     font-weight: bold;
-    position: absolute;
-    top: 345px;
-    left: 235px;
     text-align: center;
 }
 
-.insta {
-    position: absolute;
-    top: 410px;
-    left: 186px;
+.text{
+    width: 40vw;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: 3px solid #235284;
 }
 
-.face {
-    position: absolute;
-    top: 510px;
-    left: 190px;
+.question label{
+    font-size: 2.4rem;
+    margin: 1rem;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
- 
+.question {
+    margin: .4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social img{
+    margin: 1rem;
+}
+
+@media (max-width: 720px){
+    .container {
+        flex-direction: column;
+    }
+
+    .formulario{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .question label{
+        font-size: 1.6rem;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .container{
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .button{
+        width: 60%;
+    }
+
+    .conta{
+        display: flex;
+        align-items: center;
+    }
+
+    .conta h2{
+        font-size: 1.6rem;
+    }
+}

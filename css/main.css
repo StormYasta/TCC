@@ -1,16 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
 body {
-    background-image: linear-gradient(
-        white 25%,
-        #449bd2
-    );
+  background-image: linear-gradient(white 25%, #449bd2);
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 /* img {
@@ -159,8 +161,8 @@ color: #235284;
     
    
  } */
- 
- /* .perguntadesmotivado {
+
+/* .perguntadesmotivado {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
@@ -212,103 +214,67 @@ color: #235284;
     font-size: 12px; 
  } */
 
- .button a{
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: #235284;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 28rem;
-    height: 3rem;
-    background-color: #fff;
-    transition: .3s;
-    border-radius: 2rem;
-    border: 3px solid #235284;
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 1.8rem;
-    font-weight: bold;
+.button a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #235284;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28rem;
+  height: 3rem;
+  background-color: #fff;
+  transition: 0.3s;
+  border-radius: 2rem;
+  border: 3px solid #235284;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-.button a:hover{
-    color: #fff;
-    background-color: #235284;
+.button a:hover {
+  color: #fff;
+  background-color: #235284;
 }
 
- .perguntapreocupado{
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 415px;
-    top: 330px;
-    color: #235284;
-    text-align: center 
- }
- 
- .perguntaansioso{
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 425px;
-    top: 330px;
-    color: #235284;
-    text-align: center 
- }
- .perguntasobrecarregado{
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 400px;
-    top: 330px;
-    color: #235284;
-    text-align: center 
- }
-  
- .perguntatriste{
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    left: 460px;
-    top: 330px;
-    color: #235284;
-    text-align: center 
- }
- .sentado{
-    position: absolute;
-    top: 850px;
-    left: 1050px;
+button {
+  /* width: 500px; */
+  /* height: 60px; */
+  border: 3px solid #235284;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
 }
-.sentado{
-    position: absolute;
-    top: 850px;
-    left: 1020px;
 
+button:hover {
+  background: #235284;
+  color: white;
+  font-size: 2 em;
 }
-    button {
-        width: 500px;
-        height: 60px;
-        border: 3px solid #235284;
-        border-radius: 45px;
-        transition: all 0.3s;
-        cursor: pointer;
-        background: white;
-        font-size: 1.2em;
-        font-weight: 550;
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        left: 670px;
-        top: -100px;
-      }
-      
-      button:hover {
-        background: #235284;
-        color: white;
-        font-size: 2.0 em;
-      }
-         
 
-.ondas{
-    position: absolute;
-    top: -150px;
-    left: -150px;
+.ondas {
+  position: absolute;
+  top: -150px;
+  left: -150px;
+}
+
+@media (max-width: 720px){
+    .button a{
+        width: 100%;
+    }
+
+    .metodos2 img{
+        width: 95%;
+        margin: auto;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

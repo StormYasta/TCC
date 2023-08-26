@@ -49,7 +49,28 @@ body{
     width: 18rem;
 }
 
+.button a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #235284;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    height: 3rem;
+    background-color: #fff;
+    transition: .3s;
+    border-radius: 2rem;
+    border: 3px solid #235284;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
 
+.button a:hover{
+    color: #fff;
+    background-color: #235284;
+}
 
 @media (max-width: 720px){
     .question {
@@ -57,6 +78,6 @@ body{
     }
 
     .button a{
-        width: 14rem;
+        width: 60%;
     }
 }

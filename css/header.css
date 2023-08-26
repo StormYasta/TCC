@@ -40,6 +40,7 @@ header{
         #449bd2
     );
     z-index: -2;
+    min-height: 100vh;
 }
 
 @media(max-width: 720px){
